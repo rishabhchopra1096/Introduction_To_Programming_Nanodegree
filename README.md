@@ -21,4 +21,4 @@ Projects for my Udacity Intro to Programming Nanodegree
 )  
 
 
-![Udacity Intro to Programming Nanodegree Certificate](https://printer.udacity.com/certificate/nd000)
+![Udacity Intro to Programming Nanodegree Certificate](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/nd000-rishabh-chopra-certificate.pdf)
