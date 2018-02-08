@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+          <title>RISHABH'S STAGE 0 NOTES</title>
+     </head>
+      <body>
+          <h1>THE BASICS OF WEB</h1>
+            <p>   World Wide Web :<br>
+              The web is a collection of HTML documents . -> these documents are made up of HyperTextMarkupLanguage.<br>
+              HTML is the basis for all web.<br>
+              Links between the pages is what makes the web , web like --> these are known as Hyper Links.<br>
+              HTML glues the internet together. There may be images , other things but HTML is what hold the web together.<br>
+              Quiz- Main type of document on the web -> HTML<br>
+              What types of files can be found on the web  ?
+              Plain text ,HTML , Images , Videos , Music.
+            </p>
+          <h2>MAJOR PIECES OF THE WEB</h2>
+            <p>
+              i) You<br>ii) Your Computer+Browser<br>iii) The Internet (Cloud)<br>iv) Servers<br>
+            Your browser makes requests via the internet to the servers using a protocol called HTTP.<br>-> Hyper Text Transfer Protocol.->The main protocol of the web.<br>
+            The servers respond with files that your browser displays.<br>
+            Servers are just like computers , they are just optimized for hosting files rather than browsing these files.<br>
+            Browser -> a program that runs on your computer to display files.</p>
+          <h3>HYPERTEXT MARKUP LANGUAGE</h3>
+          <p>
+               <b><em>Is made up of</em></b> :<br>
+               ->text content <b>what you see</b> --> &lt;b&gt; used here<br>
+               ->markup <b>what it looks like</b> --> &lt;b&gt; used here<br>
+               ->references to other documents eg: images + videos <br>
+               ->links to other pages<br>
+               Now , plain text in the in a text editor is the same plain text in the browser.<br>
+               For HTML markups -> you have to use tags -><br>
+               &lt;name&gt; Contents&lt;/name&gt; <br>
+               opening tag and closing tag ->Now the name of tag remains the same -> but the closing tag has a <b>/</b>.<br>
+               The whole thing - &lt;name&gt;Contents&lt;/name&gt; refers to an <b>element.</b><br>
+          </p>
+          <p>
+              <b>The &lt;b&gt; tag </b>  :<br>
+              Anything that appears inside the b tag -> appears <b>BOLD</b>. <br>
+              &lt;b&gt;contents&lt;/b&gt;
+          </p>
+            <p>
+               <b>The &lt;em&gt; tag</b>  --> it stands for emphasis:<br> -> <em>ITALICIZES</em> the text.<br>
+               &lt;em&gt;contents&lt;/em&gt;
+            </p>
+            <p>
+              If you <b>forget to put the closing tag</b> in any like -> <br>
+              I am going to &lt;em&gt;learn to &lt;b&gt;love&lt;/b&gt; HTML -> you will see that all of the text-> Learn onwards becomes italicized.<br>
+              Why? Cause you open the tag but never closed it so the tag does not know where to stop. So it will appear like this { <em>learn to <b>love</b> HTML </em> }.
+            </p>
+            <p> <b> HTML Attributes :</b> <br>
+              &lt;TAG ATTR=value&gt;contents&lt;/TAG&gt;<br>
+              Anchor tag - &lt;a&gt; <br>
+              &lt;a href="www.reddit.com"&gt;herp&lt;/a&gt;<br>
+              <em>href</em> is the attribute name and <em>www.reddit .com</em> is the value.<br>
+              If you render this in HTML , you would just see derp -> but actually it will be a link to reddit.com. <br>
+              Anchors are for making links .<br>
+              The href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the tag is not a hyperlink.<br>
+              href stands for Hypertext Reference.
+            </p>
+            <p> <b> IMAGE TAG -> &lt;img&gt; </b> <br>
+              &lt;img src="url" alt="text"&gt; <br>
+              url - servers can search for the image. <br>
+              Here , the alt refer to the text that is required to be displayed when the image does not load.<br>
+              ->for broken request<br>
+              ->for blind people<br>
+              IMAGE TAG IS A VOID TAG ->  Has no content no does not require a closing tag. </p>
+            <p>
+              <b> BREAK LINE TAG -> &lt;br&gt; </b> <br>
+              Now , for the WHITESPACE : <br>
+              Text on <br>
+              Multiple -> Text on multiple lines <br>
+              Lines <br>
+              &lt;br&gt; -> break line tag , void tag<br>
+              Put this after any line you want to break. <br>
+              For eg:<br> 1. This text is really <br>
+              2. too long one line --> will appear as this text is really too long one line.But <br>
+              1. This text is really &lt;br&gt; <br>
+              2. too long one line -> will appear as:<br> This text is really<br>
+                                                too long one line .
+            </p>
+            <p>
+              <b> PARAGRAPH TAG -> &lt;p&gt; </b> <br>
+              -> Creates space between paragraphs.
+            </p>
+            <p>
+              <b> It does not matter how much spacing you do between words</b>  - it will count as one space only. <br>
+              A coder has to use break line tag or paragraph tag to seperate some subjects or provide clarity or neatness.<br>
+              Break Line Tag is Inline Element and Paragraph Tag is Block Element.
+            </p>
+            <p>
+               <b> BLOCK VS INLINE ELEMENTS </b> <br>
+                1. Block-level Elements <br>
+                A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).<br>
+                Examples of block-level elements:<br>
+                &lt;div&gt; -> What is a div tag?<br>
+                HTML -> Div Element(s) The &lt;div&gt; tag is nothing more than a container unit that encapsulates other page elements and divides the HTML document into sections.<br> Web developers use &lt;div&gt; elements to group together HTML elements and apply CSS styles to many elements at once.<br>
+                &lt;h1&gt; - &lt;h6&gt; <Br>
+                &lt;p&gt; <br>
+                &lt;form&gt; -> kind of like the paragraph tag , whats the difference? <br>
+                The HTML &lt;form&gt; tag is used for creating a form for user input.<br>
+                A form can contain textfields, checkboxes, radio-buttons and more. Forms are used to pass user-data to a specified URL.<br>
+                Now , for the second type of elements <br>
+                2. Inline Elements <br>
+                An inline element does not start on a new line and only takes up as much width as necessary.<br>
+                This is an inline &lt;span&gt; element inside a paragraph.
+                Examples of inline elements:
+                &lt;span&gt; <br>
+                &lt;a&gt; <br>
+                &lt;img&gt; <br>
+                &lt;b&gt; <br>
+                &lt;em&gt;. <br>
+                &lt;strong&gt; -> strong is another name for bold-inline tag. <br>
+            </p>
+              <p>
+                <b> Container Elements </b> <br>
+                1. Span Tag : &lt;span&gt; and<br> 2. Div Tag : &lt;div&gt; <br>
+                Both can have content but the only difference between them is that : <br>
+                &lt;span&gt; text &lt;/span&gt; is Inline <br>
+                And &lt;div&gt;text&lt;div&gt; is block. <br>
+                These do nothing but contain their content.
+                And then CSS can be used to add styles to them ->
+                &lt;span class="foo"&gt;text&lt;/span&gt; <b>inline</b> <br>
+                &lt;div class="bar”&gt;text&lt;/div&gt; <b>block</b> <br>
+                Now , the br tag is an Inline tag cause actually it does not create a box on the screen , it just creates a new line. <br>
+                Other block elements actually create an invisible box around the text.
+               </p>
+          <h4>HTML DOCUMENT STRUCTURE</h4>
+            <p>
+              <pre>
+              1. &lt;!DOCTYPE html&gt;
+              2. &lt;html&gt;
+              3.        &lt;head&gt;
+              4.                &lt;title&gt;My Web Page!&lt;/title&gt;
+              5.        &lt;/head&gt;
+              6.        &lt;body&gt;
+              7.                &lt;h1&gt;Welcome to my personal web page!&lt;/h1&gt;
+              8.                &lt;p&gt;
+              9.                       I am a full stack web developer in San Francisco , CA
+              10.               &lt;/p&gt;
+              11.       &lt;/body&gt;
+              12. &lt;/html&gt;
+            </pre>
+          </p>
+          <p>
+            <em><b>Let's disect this code a bit</b></em>:<br>
+            1) The first line is something that should appear on every webpage you make. &lt;!DOCTYPE html&gt; defines the type of <br>the document so the browser will render it correctly.<br>
+            2) The &lt;html&gt; tag opens our document. Everything that shows on the webpage is placed within this tag.<br>
+            3) The &lt;head&gt; tag defines metadata for our web page. This includes the title of the page (this is what appears in <br>
+            the top of your tab or browser window). Notice that the &lt;head&gt; tag is indented to a new level <br>
+            because the &lt;html&gt; tag was opened but not closed (a new idea was started but not completed). <br>
+            Moreso, the &lt;title&gt; tag is indented another level further (the &lt;head&gt; tag was opened but not closed).<br>
+            4) The &lt;title&gt; tag is closed on the same line it was opened which we usually do if the content of a tag is short.<br>
+             On the other hand, the &lt;head&gt; tag is closed on a different line. The closing tag is indented to the same level as the matching opening one.<br>
+           </p>
+           <b>Note:</b> <br> &lt;pre&gt; used above to show HTML document structure. <br>
+           &amp;lt and &amp;gt used to display HTML tags.
+      </body>
+</html>

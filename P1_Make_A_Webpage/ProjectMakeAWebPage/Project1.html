@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="Project1.CSS">
+          <title>RISHABH'S STAGE 0 NOTES</title>
+     </head>
+      <body>
+        <div class="lesson">
+          <h1><span class="underline">Table of Contents</span></h1>
+          <ol>
+            <li><a href="#lesson-1">LESSON1: THE BASICS OF WEB AND HTML</a>
+          <ul>
+          <li><a href="#lesson-1-1">WORLD WIDE WEB</a></li>
+          <li><a href="#lesson-1-2">MAJOR PIECES OF THE WEB</a></li>
+          <li><a href="#lesson-1-3">HYPERTEXT MARKUP LANGUAGE</a></li>
+          <li><a href="#lesson-1-4">THE &lt;b&gt; TAG :</a></li>
+          <li><a href="#lesson-1-5">THE &lt;em&gt; TAG</a></li>
+          <li><a href="#lesson-1-6">HTML ATTRIBUTES :</a></li>
+          <li><a href="#lesson-1-7">IMAGE TAG -> &lt;img&gt;</a></li>
+          <li><a href="#lesson-1-8">BREAK LINE TAG -> &lt;br&gt;</a></li>
+          <li><a href="#lesson-1-9">PARAGRAPH TAG -> &lt;p&gt;</a></li>
+          <li><a href="#lesson-1-10">BLOCK VS INLINE ELEMENTS</a></li>
+          <li><a href="#lesson-1-11">CONTAINER ELEMENTS</a></li>
+          <li><a href="#lesson-1-12">HTML DOCUMENT STRUCTURE</a></li>
+        </ul>
+        </li>
+        <li><a href="#lesson-2">LESSON 2:CREATING A STRUCTURED DOCUMENT WITH HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">DEVELOPER TOOLS(in the Browser)</a></li>
+          <li><a href="#lesson-2-2">HTML's &quot;TREE LIKE&quot; STRUCTURE</a></li>
+        </ul>
+        </li>
+        <li><a href="#lesson-3">LESSON 3: ADDING CSS TO HTML STRUCTURE</a>
+          <ul>
+            <li><a href="#lesson-3-1">AWESOME ANALOGY</a></li>
+            <li><a href="#lesson-3-2">HTML-CSS-DOM</a></li>
+            <li><a href="#lesson-3-3">BOXES TO HTML</a></li>
+            <li><a href="#lesson-3-4">CLASSES</a></li>
+            <li><a href="#lesson-3-5">ADDING STYLE TO YOUR PAGE</a></li>
+            <li><a href="#lesson-3-6">THE BOX MODEL</a></li>
+            <li><a href="#lesson-3-6.1">BOX SIZING</a></li>
+            <li><a href="#lesson-3-6.2">BOX POSITIONING</a></li>
+            <li><a href="#lesson-3-7">CODE-TEST-REFINE</a></li>
+            <li><a href="#lesson-3-8">VERIFYING/VALIDATING HTML AND CSS</a></li>
+        </ul>
+        </li>
+      </ol>
+      </div>
+      <h1><span class="underline">Important Concepts</span></h1>
+        <div class="lesson">
+          <h2 id="lesson-1"><span class="underline">LESSON1: THE BASICS OF WEB AND HTML</span></h2>
+          <div class="concept" id="lesson-1-1">
+            <h3 class="concept-title"> WORLD WIDE WEB</h3>
+            <div class="concept-description">
+            <p>
+              The world wide web refers to a collection of HTML documents. These documents are made up <b>HyperTextMarkupLanguage</b>.<br>
+              HTML is the basis for all web.<br>
+              Links between the pages is what makes the web, web like --> these are known as <b>Hyper Links.</b><br>
+              HTML glues the internet together. There may be images , other things but HTML is what hold the web together.<br>
+              <b>Quiz</b>-i) Main type of document on the web -> HTML<br>
+              ii) What types of files can be found on the web  ?
+              Plain text ,HTML , Images , Videos , Music
+            </p>
+            </div>
+          </div>
+          <div class="concept" id="lesson-1-2">
+          <div class="MajorPiecesOfTheWeb">
+            <h3 class="concept-title">MAJOR PIECES OF THE WEB</h3>
+            <div class="concept-description">
+              <p>
+                i) You<br>ii) Your Computer+Browser<br>iii) The Internet (Cloud)<br>iv) Servers<br>
+                Your browser makes requests via the internet to the servers using a protocol called <b>>HTTP</b>.<br>--> Hyper Text Transfer Protocol.-->The main protocol of the web.<br>
+                The <b>servers</b> respond with files that your browser displays.<br>
+                Servers are just like computers , they are just optimized for hosting files rather than browsing these files.<br>
+                <b>Browser</b> --> a program that runs on your computer to display files.
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="concept" id="lesson-1-3">
+            <h3 class="concept-title">HYPERTEXT MARKUP LANGUAGE</h3>
+          <div class="concept-description">
+            <p>
+               <b><em>Is made up of</em></b> :<br>
+               -->text content <b>what you see</b> --> &lt;b&gt; used here<br>
+              -->markup <b>what it looks like</b> --> &lt;b&gt; used here<br>
+               -->references to other documents eg: images + videos <br>
+               -->links to other pages<br>
+               Now , plain text in the in a text editor is the same plain text in the browser.<br>
+               For HTML markups, you have to use tags --><br>
+               &lt;name&gt; Contents&lt;/name&gt; <br>
+               opening tag and closing tag ->Now the name of tag remains the same -> but the closing tag has a <b>/</b> before the name of the tag.<br>
+               The whole thing - &lt;name&gt;Contents&lt;/name&gt; refers to an <b>element.</b><br>
+             </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-1-4">
+        <div class="btag">
+          <div class="concept-title">
+
+             <b>THE &lt;b&gt; TAG </b>
+          <div class="concept-description">
+            <p>
+              Anything that appears inside the b tag -> appears <b>BOLD</b>. <br>
+              &lt;b&gt;contents&lt;/b&gt;
+             </p>
+          </div>
+      </div>
+      </div>
+        <div class ="concept" id="lesson-1-5">
+          <h3 class = "concept-title">THE &lt;em&gt; TAG</h3>
+            <div class="concept-description">
+              <p>
+                --> it stands for emphasis<br> --> <em>ITALICIZES</em> the text.<br>
+                -->&lt;em&gt;contents&lt;/em&gt;
+              </p>
+              <p>
+                   <b>Note: </b>If you <b>forget to put the closing tag</b> in any like --> <br>
+                   I am going to &lt;em&gt;learn to &lt;b&gt;love&lt;/b&gt; HTML<br> --> you will see that all of the text -->(Learn onwards) becomes italicized.<br>
+                   Why? Cause you open the tag but never closed it so the tag does not know where to stop. So it will appear like this { <em>learn to <b>love</b> HTML </em> }.
+                </p>
+           </div>
+        </div>
+        <div class="concept" id="lesson-1-6">
+          <h3 class="concept-title">HTML ATTRIBUTES :</h3>
+          <div class="concept-description">
+            <p>
+              &lt;TAG ATTR=value&gt;contents&lt;/TAG&gt;<br>
+              Anchor tag - &lt;a&gt; <br>
+              &lt;a href="www.reddit.com"&gt;herp&lt;/a&gt;<br>
+              <em>href</em> is the attribute name and <em>www.reddit .com</em> is the value.<br>
+              If you render this in HTML , you would just see derp -> but actually it will be a link to reddit.com. <br>
+              Anchors are for making links .<br>
+              The href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the tag is not a hyperlink.<br>
+              href stands for Hypertext Reference.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-1-7">
+          <h3 class="concept-title">IMAGE TAG -> &lt;img&gt;</h3>
+          <div class =concept-description>
+            <p>
+            &lt;img src="url" alt="text"&gt; <br>
+            url - servers can search for the image. <br>
+            Here , the alt refer to the text that is required to be displayed when the image does not load.<br>
+            ->for broken request<br>
+            ->for blind people<br>
+            IMAGE TAG IS A VOID TAG ->  Has no content no does not require a closing tag.
+           </p>
+         </div>
+       </div>
+        <div class="concept" id="lesson-1-8">
+          <h3 class="concept-title">BREAK LINE TAG -> &lt;br&gt;</h3>
+          <div class="concept-description">
+          <p>
+            Now , for the WHITESPACE : <br>
+            Text on <br>
+            Multiple -> Text on multiple lines <br>
+            Lines <br>
+            &lt;br&gt; -> break line tag , void tag<br>
+            Put this after any line you want to break. <br>
+            For eg:<br> 1. This text is really <br>
+            2. too long one line --> will appear as this text is really too long one line.But <br>
+            1. This text is really &lt;br&gt; <br>
+            2. too long one line -> will appear as:<br> This text is really<br>
+                                                too long one line .
+           </p>
+         </div>
+       </div>
+       <div class="concept" id="lesson-1-9">
+         <h3 class="concept-title"> PARAGRAPH TAG -> &lt;p&gt;</h3>
+         <div class="concept-description">
+          <p>
+            -> Creates space between paragraphs.
+            <b> It does not matter how much spacing you do between words</b>  - it will count as one space only. <br>
+            A coder has to use break line tag or paragraph tag to seperate some subjects or provide clarity or neatness.<br>
+            Break Line Tag is Inline Element and Paragraph Tag is Block Element.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-10">
+        <h3 class="concept-title"> BLOCK VS INLINE ELEMENTS</h3>
+        <div class="concept-description">
+          <p>
+            1. Block-level Elements <br>
+            A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).<br>
+            Examples of block-level elements:<br>
+            &lt;div&gt; -> What is a div tag?<br>
+            HTML -> Div Element(s) The &lt;div&gt; tag is nothing more than a container unit that encapsulates other page elements and divides the HTML document into sections.<br> Web developers use &lt;div&gt; elements to group together HTML elements and apply CSS styles to many elements at once.<br>
+            &lt;h1&gt; - &lt;h6&gt; <Br>
+              &lt;p&gt; <br>
+              &lt;form&gt; -> kind of like the paragraph tag , whats the difference? <br>
+              The HTML &lt;form&gt; tag is used for creating a form for user input.<br>
+              A form can contain textfields, checkboxes, radio-buttons and more. Forms are used to pass user-data to a specified URL.<br>
+              Now , for the second type of elements <br>
+            2. Inline Elements <br>
+            An inline element does not start on a new line and only takes up as much width as necessary.<br>
+            This is an inline &lt;span&gt; element inside a paragraph.
+            Examples of inline elements:
+            &lt;span&gt; <br>
+            &lt;a&gt; <br>
+            &lt;img&gt; <br>
+            &lt;b&gt; <br>
+            &lt;em&gt; <br>
+            &lt;strong&gt; -> strong is another name for bold-inline tag.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-11">
+        <h3 class="concept-title"> CONTAINER ELEMENTS</h3>
+        <div class=concept-description>
+          <p>
+           1. Span Tag : &lt;span&gt; and<br> 2. Div Tag : &lt;div&gt; <br>
+           Both can have content but the only difference between them is that : <br>
+           &lt;span&gt; text &lt;/span&gt; is Inline <br>
+           And &lt;div&gt;text&lt;div&gt; is block. <br>
+           These do nothing but contain their content.
+           And then CSS can be used to add styles to them ->
+           &lt;span class=&quot;foo&quot;&gt;text&lt;/span&gt; <b>inline</b> <br>
+           &lt;div class=&quot;bar&quot;&gt;text&lt;/div&gt; <b>block</b> <br>
+           Now , the br tag is an Inline tag cause actually it does not create a box on the screen , it just creates a new line. <br>
+           Other block elements actually create an invisible box around the text.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-12">
+                  <h4 class="concept-title">>HTML DOCUMENT STRUCTURE</h4>
+        <div class="concept-description">
+            <pre>
+              1. &lt;!DOCTYPE html&gt;
+              2. &lt;html&gt;
+              3.        &lt;head&gt;
+              4.                &lt;title&gt;My Web Page!&lt;/title&gt;
+              5.        &lt;/head&gt;
+              6.        &lt;body&gt;
+              7.                &lt;h1&gt;Welcome to my personal web page!&lt;/h1&gt;
+              8.                &lt;p&gt;
+              9.                       I am a full stack web developer in San Francisco , CA
+              10.               &lt;/p&gt;
+              11.       &lt;/body&gt;
+              12. &lt;/html&gt;
+            </pre>
+          <p>
+            <em><b>Let's disect this code a bit</b></em>:<br>
+            1) The first line is something that should appear on every webpage you make. &lt;!DOCTYPE html&gt; defines the type of <br>the document so the browser will render it correctly.<br>
+            2) The &lt;html&gt; tag opens our document. Everything that shows on the webpage is placed within this tag.<br>
+            3) The &lt;head&gt; tag defines metadata for our web page. This includes the title of the page (this is what appears in <br>
+            the top of your tab or browser window). Notice that the &lt;head&gt; tag is indented to a new level <br>
+            because the &lt;html&gt; tag was opened but not closed (a new idea was started but not completed). <br>
+            Moreso, the &lt;title&gt; tag is indented another level further (the &lt;head&gt; tag was opened but not closed).<br>
+            4) The &lt;title&gt; tag is closed on the same line it was opened which we usually do if the content of a tag is short.<br>
+            On the other hand, the &lt;head&gt; tag is closed on a different line. The closing tag is indented to the same level as the matching opening one.<br>
+          </p>
+          <p>
+            <b>Note:</b> <br> &lt;pre&gt; used above to show HTML document structure. <br>
+            &amp;lt and &amp;gt used to display HTML tags.
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="lesson" id="lesson-2">
+    <h2><span class="underline">LESSON 2:CREATING A STRUCTURED DOCUMENT WITH HTML</span></h2>
+    <div class="concept" id="lesson-2-1">
+      <h3 class="concept-title">DEVELOPER TOOLS(in the Browser)</h3>
+      <div class="concept-description">
+        Developer tools are cool.<br>
+        <ol>
+        <li>No one knows all the names/codes of all the shades of all colors. D tools help in choosing whatever color you want to use.<br>
+        For example, you can just change the background-color of this page by right clicking on the green part of this page and then clicking <br>
+        inspect. Then , change the color as you like and copy the code of that shade in your .CSS file.</li>
+        <li>Developer tools help you  freely edit your page without saving it in different versions. </li>
+        <li>You can get the proper dimensions of a div/span or a box on the page that will include the dimensions of:</li>
+        </ol>
+        i)content box<br>
+        ii)padding<br>
+        iii)border<br>
+        iv)margin<br>
+        <b>Note:</b>Developer tools display the <b>structure</b> of the page, not the actual code.
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-2">
+      <h3 class="concept-title">HTML's &quot;TREE LIKE&quot; STRUCTURE</h3>
+      <div class="concept-description">
+        <p>
+          This tree like structure refers to what we see in develepor tools.<br>
+          As we have a body tag -->inside that we have div's and span's to make boxes and inside that also we have other div and span elements <br>
+          or images or text.<br>
+          This relationship is somewhat similar to the family tree. <br>
+          The developer tools shows us this tree structure and displays a series of nested boxes. There are boxes within boxes within boxes and so on.
+          The moree deeply a box is nested , the more indented it has to be <b>OR</b> vice versa -->The more indented an element is , the more deeply nested its<br>
+          corresponding box is.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="lesson" id="lesson-3">
+    <h2> <span class="underline">LESSON 3: ADDING CSS TO HTML STRUCTURE</span></h2>
+    <div class="concept" id="lesson-3-1">
+      <h3 class="concept-title">AWESOME ANALOGY</h3>
+      <div class="concept-description">
+        <p>
+          HTML , CSS and JavaScript are the 3 laguages of web development.<br>
+          You can think of a website as your house. <br>
+          1. HTML - HTML – structure , where the walls are places , where the living room is and where the bathroom is.<br>
+          2. CSS- style of your house. What colour is the carpeting , what decorations you make , what colors are the walls ?<br>
+          3. JavaScript file are the interactive components. The garage door opener or the television remote.<br>
+            They refer to the utilities used in a house and change some element of the house.<br>
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-2">
+      <h3 class="concept-title">HTML-CSS-DOM</h3>
+      <div class="concept-description">
+        <p>
+          HTML - HyperText Markup Language - the standard markup language used to create web pages. Language of the web - has syntax rules. -Tag -elements -form a tree (DOM). <br>
+          CSS - Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.<br>
+          DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages).<br>
+          The nodes of every document are organized in a tree structure, called the DOM tree.<br>
+          So basically , Html is the language of the web.<br>
+          Html has specific syntax and rules.<br>
+          Instead of following general grammatical rules , we follow syntax and rules. <br>
+          Basic word in html is <em>tag</em>. The browser turns html tags into elements that form a tree. -->DOM. <br>
+          The DOM (in developer tools) is what the browser builts from an HTML document.
+          Each html tag creates an element in the DOM that the browser uses to display the page.
+          The document written in HTML defines the structure and content of the page.
+          To define style we have to use CSS. CSS also uses certain syntax and rules to change how an element looks on the webpage.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-3">
+      <h3 class="concept-title"> BOXES TO HTML</h3>
+        <div class="concept-description">
+          <p>
+          Everything on a web page is actually a box. Boxes help making the life of a front end web developer much easier. <br>
+          There are grids used to align the elements propotionately and neatly.<br>
+          Everything on the web is boxes. You have to box out from big boxes to small. When you get a design , just see the biggest box(the whole page) and then <br>
+          see the smaller sub boxes. A circle on a webpage is just a square with border-radius.<br>
+          Use a pencil --> start out from the big boxes and movie inside.
+          We use divs and spans box out the components on a web page.
+          </p>
+        </div>
+    </div>
+    <div class="concept" id="lesson-3-4">
+      <h3 class="concept-title">CLASSES</h3>
+      <div class="concept-description">
+        <p>
+          Now that’s great that you have the boxes organized, but how do you apply style to that? <br>
+          The boxes are of different sizes and in different locations. <br>
+          And you need to mark them to apply style later. <br>
+          You can do so by applying <em><b>class</b></em>.<br>
+          Now these classes are basically labels on boxes to remind you what is inside of them to add style. <br>
+          Just like when you’re moving -->you label the box with utensils as -->&quot;KITCHEN&quot; and also -->&quot;HANDLE WITH CARE&quot;.<br>
+          Name the class of the box according to what is inside the box as to not forget what that class represents.
+        </p>
+      </div>
+    </div>
+    <b>Note:</b> Use &lt;!-- TO WRITE COMMENTS IN HTML. --&gt;
+    <div class="concept" id="lesson-3-5">
+      <h3 class="concept-title">ADDING STYLE TO YOUR PAGE</h3>
+      <div class="concept-description">
+        <p>
+          We need to tell the browser where to find the style information.<br>
+          The &lt;head&gt; tag consists the metadata. This is where we enter our style information or our reference to a .CSS file. <br>
+          Format for adding link to .css file: &lt;link rel=&quot;stylesheet&quot; href=&quot;name_of_file.css&quot;&gt;<br>
+          Format for adding style in a certain tag/class: tag/<b>.</b>class { attribute: value; }.<br>
+          Remember , before adding style to a class -->A selector &quot;.&quot; is used.<br>
+          A selector is not used before adding style to tag, for example p{color:red;} --> This will make all text in the paragraphs. red in color.<br>
+          Here is an <a href="https://css-tricks.com/how-css-selectors-work/">article</a> on css selectors.<br>
+          Go through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">Documentation</a>.<br>
+          Browsers use default stylesheets to determine how to display HTML elements. You can view the default style rules for h1 and other elements for the following browsers:
+          <a href="http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css">WebKit (Chrome and Safari)</a><br>
+          Because these rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as <a href="http://necolas.github.io/normalize.css/">normalize.css</a>.
+        </p>
+          <b>Important</b>:See <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345402/modules/383612889175460/lessons/4131369051/concepts/36111086980923#"><b>CSS Summary and Reference</b></a>.
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-6">
+      <h3 class="concept-title">THE BOX MODEL</h3>
+      <div class=concept-description>
+        <div class="box-model">
+          <div class="box-image"><img src="box.png" alt="Picture of box model"></div>
+          <div class="about-box-model">
+            See full box model <a href="http://assignments.udacity-extras.appspot.com/courses/html-css/samples/box-model.html">here</a>.<br>
+            The content(blue) sits at the very centre with the texts, images , etc. and the other layers --> The padding , border and the margin protect it so that the other elements do not overlap or sit to close to the content.<br>
+            The padding (green) clears the air around the content. It is the space inside the box that protects the content directly. It clears the area around the content and is affected by the background color of the box. <br>
+            Border goes around the padding and the content. It is inherited from the color property of the box. <br>
+            And lastly , our outermost layer is the margin which does not have a background color – it is transparent. It refers to the space between boxes. <br>
+          </div>
+        </div>
+        <span class=concept-title2 id="lesson-3-6.1">
+              <b>BOX SIZING</b>
+        </span>
+        <div class="about-box-model">
+          So, HTML elements are boxes and each box has 4 components.<br>
+          Because there are so many components to each box, it can often be hard to get the size of a box just right.<br>
+          There are two techniques you can use to help deal with sizing issues.
+          <p>
+          <b>1.</b> The width of the box = (left border width +left padding width+content width+right padding width +right border width).<br>
+          This makes it difficult to calculate how much space would the box actually take on the screen without recalculating it every time you change the values. <br>
+          Luckily there is a way in CSS : <br>
+          Easier to use model : <br>
+          *{ box-sizing: border-box;} <br>
+          This makes the calculation of the element size include both padding and border so that it is easier to make layouts.Just set the width of the overall box and no matter how much you tweak the padding and border size :
+          ..the size of the box will always stay the same. <b>Remember:</b>Margin is not included in the box.<br>
+          Now , there is a catch – this box model has been very recently developed so there are some browser specific prefixes known as Webkit , mose and MS.
+          Just add them in front of the style definition and they are added as so:<br>
+          *{-webkit-box-sizing: border-box;<br>
+          -moz-box-sizing: border-box;<br>
+          -ms-box-sizing: border-box;<br>
+          box sizing: border-box;}<br>
+          <b>Note:</b> Here <b>*</b> means universal selector. It will apply to all the elements.
+          </p>
+          <p>
+            <b>2.</b>We have been setting the size of the box in <em>pixels</em>. It is also possible to set it in <b>percentage</b>. <br>
+            If you set it as the percentage, it would differ on the document window size. If you set a box to be 50% , it would take 50% area of the document window.<br>
+            You can also set a <b>max-width</b> of the box –so it will become smaller as the document window decreased in size but not larger as you increase the size of document window.<br>
+          </p>
+        </div>
+          <span class="concept-title2" id="lesson-3-6.2">
+            <b>BOX POSITIONING</b>
+          </span>
+        <div class="about-box-model">
+            Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.<br>
+            Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.<br>
+            eg: In this concept : The box model's image and the description beside it are in a div with class=&quot;box-model&quot;.<br>
+            The box-model div has been set to the rule display: flex;. The box-model div ends before the sub concept &quot;BOX SIZING&quot;.<br>
+        </div>
+        </div>
+      </div>
+        <div class="concept" id="lesson-3-7">
+      <h3 class="concept-title">CODE-TEST-REFINE</h3>
+      <div class="concept-description">
+        <ol>
+        <li>Look for natural boxes :divide and conquer. Everything on the web is box.</li>
+        <li>Look for repeated styles and semantic(headers) elements.</li>
+        <li>Write your HTML.</li>
+        <li>Apply style ( from BIGGEST to smallest).</li>
+        <li>Fix things.<br>
+        Keep repeated steps 3,4,5 -till you are satisfied.</li>
+      </ol>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-8">
+      <h3 class="concept-title">VERIFYING / VALIDATING HTML AND CSS</h3>
+      <div class="concept-description">
+        <p>
+          It is important that the HTML and CSS written is correct and complies with standards.<br>
+          Your code may display correctly in one browser but incorrectly in another which makes an incorrect assumption.<br>
+          There are icons one can display to show that their HTML/CSS is validated.
+          There should be <b>no errors</b>, no unclosed tags, no child elements missing, etc. <br>
+          Validate your HTML <a href= "http://validator.w3.org/#validate_by_input">here</a>.<br>
+          Validate your CSS <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!">
+    </a>
+</p>
+</body>
+</html>

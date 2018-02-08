@@ -1,0 +1,90 @@
+h1 {
+    color: black;
+
+}
+
+
+.underline {
+    text-decoration:underline;
+    border-bottom:1px solid;
+}
+
+h2 {margin: 10px;}
+
+body {
+    background-color: #8BC34A;
+    font-family: helvetica;
+    margin: 13px;
+}
+
+
+/*The border-radius attribute makes the corners rounded and then the h2 margin clear out space for the text in h2 ,*/
+/* unless the text in h2 comes out of the border radius that is yellow in color*/
+
+.lesson {
+    background-color: yellow;
+    outline: 10px;
+    border-radius:20px;
+    padding:10px; /*without padding , the lesson's background color does not surround the document from all sides*/
+}
+
+
+
+.concept {
+    background-color: white;
+    border-radius: 7px;/*how much curves at corner*/
+    margin: 18px; /* outside thing shifted to how much extent*/
+    padding: 7px;/*how much will the text or content inside shift inwards*/
+}
+
+
+.concept-title {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;;
+    outline: 2px solid cyan;
+    margin:5px;
+}
+.concept-title2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    outline: 2px solid cyan;
+    margin:5px;
+}
+/*The difference between concept-title and concept-title2 is that :
+concept-title is aligned to the centre and used for main headings ,eg: BOX MODEL
+concept-title2 is not aligned to the centre and is used for sub headings like
+BOX SIZING and BOX POSITIONING.
+concept-title2 is just used twice.*/
+
+.concept-description{
+    font-weight: normal;
+    color: #7503ca;
+    margin:5px;
+    outline: 2px solid cyan;
+}
+
+.MajorPiecesOfTheWeb {
+    background-image: url('MPOTW.png');
+    background-size: 725px 185px;
+}
+
+.btag {
+    background-image: url('bold.png');
+    background-size: 735px 96px;
+}
+
+.box-model{
+    display:flex;
+    display: -webkit-flex;
+}
+
+.about-box-model{
+    font-weight: normal;
+    color: #7503ca;
+    margin:5px;
+}
+
+
