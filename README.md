@@ -3,7 +3,8 @@ Projects for my Udacity Intro to Programming Nanodegree
 
 ### Stage 0: Learn to Code
 
-[View Project](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/0_Stage_0_Notes/index.html)
+[View Project](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/P0_Stage_0_Notes/STAGE0NOTES.html
+)
 
 ### Stage 1: Making a Stylish Webpage
 
