@@ -20,6 +20,4 @@ Projects for my Udacity Intro to Programming Nanodegree
 [View Review](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/P3_Create_A_Movie_Website/Create_A_Movie_Website_Review.pdf
 )  
 
-### My certificate! 
-
 ![Udacity Intro to Programming Nanodegree Certificate](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/nd000-rishabh-chopra-certificate.png)
