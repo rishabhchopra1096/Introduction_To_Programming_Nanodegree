@@ -7,7 +7,7 @@ Projects for my Udacity Intro to Programming Nanodegree
 
 ### Stage 1: Webpages, Documents, and Structure
 
-[View project](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/Introduction_To_Programming_Nanodegree_Projects/P1_Make_A_Webpage/ProjectMakeAWebPage/Project1.html)
+[View project](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/P1_Make_A_Webpage/ProjectMakeAWebPage/Project1.html)
 [View Review](https://rishabhchopra1096.github.io/Introduction_To_Programming_Nanodegree_Projects/P1_Make_A_Webpage/Make_A_Web_Page_Review.pdf)
 
 ### Stage 2: Telling Computers What To Do
